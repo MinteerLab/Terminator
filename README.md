@@ -16,9 +16,9 @@ How to use:
   a.	Terminator was written with python 3.9 on windows 10 and may not function with later or earlier versions of python and will not function on different operating systems. Several of Terminator’s web-scraping functions employ Selenium with chrome dependencies, so google chrome is required for operation.
   b.	Python installation: python.org/downloads/
   c.	Chrome installation: google.com/chrome/
-2.	Download the Terminator package from our github page:
+2.	Download the Terminator ZIP package from our github page:
   a.	github.com/MinteerLab/Terminator
-3.	Place the downloaded Terminator directory in a convenient location. Terminator outputs are stored as subdirectories in the Terminator folder, titled according to Uniprot ID.
+3.	Extract the downloaded Terminator directory in a convenient location. Terminator outputs are stored as subdirectories in the Terminator folder, titled according to Uniprot ID.
 4.	Run the installer.py script to install dependency libraries. 
   a.	For totally new python users, scripts can be run by right clicking the script and selecting “edit with Idle”, then with the file open, pressing “F5” or navigating to run> “run module” in the header.
   b.	If the installer script fails for unforeseen reasons, you may need to manually install the external dependencies with pip commands in the command prompt.
