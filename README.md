@@ -1,13 +1,11 @@
 # Terminator
 Terminator is a python script which takes a Uniprot ID or partial protein sequence as input and determines the more appropriate protein terminus for the addition of a short (&lt;15 residue) affinity tag, as well as quantifying the risk of modifying either terminus.
 
-How to Install: see "How to use"
+How to Install: see "**How to run Terminator** below"
 
 Credits: Written By Rokas Gerulskis in the research group of Shelley D. Minteer at the University of Utah in 2024.
 
 License: Licensed under GNU General Public License v3.0
-
-How to use:
 
 **How to run Terminator:**
 1.	Install python version 3.9 and Google Chrome on your system
