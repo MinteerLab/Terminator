@@ -1,5 +1,5 @@
 # Terminator
-Terminator is a collection of python scripts which takes a Uniprot ID or partial protein sequence as input and determines the more appropriate protein terminus for the addition of a short (&lt;15 residue) affinity tag, as well as quantifying the risk of modifying either terminus.
+Terminator is a python script which takes a Uniprot ID or partial protein sequence as input and determines the more appropriate protein terminus for the addition of a short (&lt;15 residue) affinity tag, as well as quantifying the risk of modifying either terminus.
 
 Description: AutoCutter is a tool for generating image files to serve as inputs into cutting machines (such as the Silhouette Cameo) to prepare precise carbon paper electrodes. It takes a variety of input values such as electrode number, length, functional area, etc. and converts these values into pixel positions. It generates a white canvas with a black perimeter as a numpy array, then makes separate copies of this canvas on which each row of electrodes is generated. these arrays are then converted to images via PIL. The program generates each row and stores it in a cache, it then requests a location to save the input parameters as a txt, and creates a folder in the same location, transfering the images from the cache into the new directory.
 
