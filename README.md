@@ -22,6 +22,7 @@ License: Licensed under GNU General Public License v3.0
 6.	Open Terminator (“edit with IDLE”), fill in the select input variables, and run the script. Upon completion, ensure that in the output termini_scores file, the consurf column has good coverage of the   sequence in the uniprot column. If not, input ConsurfPDB and/or consurfChain to specify a structure which has better sequence coverage than the current consurf column, and set restConsurf = True. If Consurf fails to retrieve a high-quality sequence, set consurfJob = True, and await an email from Consurf for your job to be completed before running again. 
 
 **Input variables:**
+ 
 **Terminology:**
 Users new to python scripting are advised to familiarize themselves with this short section to format Terminator inputs appropriately. 
 1.	**String**:       In python, text objects are called strings, and are surrounded in single or double quotes, e.g. “cat” or ‘dog’.
@@ -30,12 +31,12 @@ Users new to python scripting are advised to familiarize themselves with this sh
 4.	**Bool**:         A Boolean value, True or False, first letter capitalized, no quotations or other surrounding markers.
 All objects in python must be properly defined, e.g. rush = “”, an empty string if you do not wish to input a value for rush.
 
-Required variables:
+**Required variables:**
 1.	**uniprotIDs**: A string or list of strings of uniprotIDs. A list results in separate Terminator runs for multiple targets.
 2.	**Sequence**:	  A string of a protein sequence if uniprotIDs is not provided.
 3.	**Email**: 	    A string. Providing an email address is required for computationally accessing PubMed and BLAST. Although consurfDB does not require an email, Consurf Job requests do require one. Terminator does not send the user’s email to any other locations.
 
-Optional variables:
+**Optional variables:**
 1.	**Rushes**: 		    Specific subset of selected PDBIDs to analyze instead of analyzing every assigned PDBID. This serves only to reduce computation time when cavitySearch = True, see cavitySearch for advice on structure selection.
                     If a single uniprot ID is provided, rushes can be a single string or list of strings of PDBs. 
                     If multiple uniprotIDs are provided, rushes must be a dictionary of {string uniprotID : string/list of strings of PDBIDs to focus. Not providing a key for a certain uniprotID simply results in all structures being processed, unless swmOnly = True.
