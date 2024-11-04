@@ -29,6 +29,7 @@ Users new to python scripting are advised to familiarize themselves with this sh
 2.	**List**:	        A list is a collection of objects such as strings, and is surrounded in square brackets, e.g. [‘cat’, ‘dog’]. 
 3.	**Dictionary**: 	A dictionary is a collection of key : value pairs (like words : definitions in a real dictionary) and is surrounded by curly braces {}, e.g. {‘dog’ : ’a pet’} or {‘cat’: [‘a pet’, ‘a mammal’]}.  
 4.	**Bool**:         A Boolean value, True or False, first letter capitalized, no quotations or other surrounding markers.
+
 All objects in python must be properly defined, e.g. rush = “”, an empty string if you do not wish to input a value for rush.
 
 **Required variables:**
